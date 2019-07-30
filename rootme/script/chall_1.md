@@ -1,6 +1,5 @@
-## Bash System-1
+##Bash System-1
 
----
 
 *Vulnerability* : Non-absolute path for the ls command within the system function of the given binary.
 *Objective* : Making a fake ls command linked to /bin/cat & preempt the original ls command by altering the PATH environment variable
