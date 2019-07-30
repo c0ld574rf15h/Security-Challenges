@@ -5,4 +5,8 @@
 1. unzip the file
 2. reverse the binary using radare2
 3. The target string is located in local_8 [ebp-0x8]
-![strcmp]
+![strcmp](./strcmp.png)
+4. The target string has the value of "123456789"
+![target](./target.png)
+5. Enter the password "123456789"
+![solution](./solution.png)
